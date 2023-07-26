@@ -1,0 +1,205 @@
+{
+  title: "个人主页——蒋宇",
+  social: {
+    github: "",
+    twitter: "",
+    linkedin: "",
+  },
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "蒋宇",
+    desc: [
+      "深圳技术大学",
+      "大数据与互联网学院",
+      "22计算机31班",
+      "202240292027",
+      "欢迎来到我的个人主页~!",
+    ],
+  },
+  modules: [
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "个人信息"
+      },
+      header: {
+        title: "information",
+        subtitle: "about me",
+      },
+      content: {
+        name: "蒋宇",
+        desc: [
+          "深圳技术大学",
+          "普通大学生一枚",
+        ],
+        md: "&emsp;&emsp;目前现任深圳技术大学信息中心项目组软件开发，负责项目核心内容的开发工作，其中参与的自研类项目：大数据与互联网学院心理健康监测管理及辅导一体化平台、心理健康监测系统（二期）、深技大食堂系统、自行采购结果自助发布平台、深技大超市系统、项目申报书查重系统、校长办公室会议系统。",
+      },
+      keys: {
+        "性别" : "男",
+        "政治面貌" : "中共团员",
+        "出生日期" : "2000年10月2日",
+        "联系方式" : "13428274386",
+        "电子邮箱" : "1471138023@qq.com",
+        "期望岗位" : "Java工程师",
+        "期望城市" : "深圳",
+        "期望薪资" : "8K"
+      },
+    },
+	
+	{
+	  display: true,
+	  anchor: {
+	    id: "education",
+	    icon: "profile",
+	    name: "教育经历",
+	  },
+	  header: {
+	    title: "education",
+	    subtitle: "higher education",
+	  }
+	},
+	
+    {
+      display: true,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "项目经历"
+      },
+      header: {
+        title: "experience",
+        subtitle: "project experience",
+      },
+      cards: [
+        {
+          title: "自行采购结果自助发布平台",
+          subtitle: "2023-04 至 2023-06",
+          md: "**项目角色 : 后端开发**\
+          \n\
+          \n● 项目链接：https://bidding.sztu.edu.cn/\
+          \n● 技术栈：Springboot+Mybatis+MySQL+Redis+JWT+Shrio+Maven+WebService\
+          \n● 项目描述：旨在规范深圳技术大学自行采购项目工作流程，为自行采购项目增设采购信息公开环节的平台。学校各单位可通过自助平台发布自行采购结果公告，发布后的结果公示信息在采购与招投标管理中心官网查看。\
+          \n● 负责模块：\
+          \n1、从0到1设计并搭建系统架构，按照3NF范式设计数据库\
+          \n2、调用第三方OAuth接口方式集成用户身份认证并重新整合到自身系统生成Token\
+          \n3、配置Axis调用第三方WebService接口实现同步文章与文章撤稿\
+          \n4、配置线程池通过@Async注解实现异步同步文章，并采用嵌套事务保证事务回滚\
+          \n5、严格依据Restful API命名规范实现接口，使用APIpost接口测试工具进行测试，编写API接口文档进行前后端交互\
+		  ",
+        },
+		
+        {
+          title: "深圳技术大学食堂系统",
+          subtitle: "2023-02 至 2023-05",
+          md: "**项目角色 : 后端开发**\
+          \n\
+          \n● 项目链接：http://canteen.sztu.edu.cn/ （校园网访问）\
+          \n● 技术栈：Springboot+Mybatis+MySQL+Redis+RocketMQ+JWT+Shrio+Maven\
+          \n● 项目描述：该项目面向深圳技术大学全体师生，旨在为校内师生和部门人员提供在线食堂下单购餐自提服务。架构基于SpringBoot，Mybatis作为持久层存储数据，Redis作为缓存提高查询性能，RocketMQ作为中间件异步处理请求，提高执行效率。\
+          \n● 负责模块：\
+          \n1、整合项目需求说明书，拟定技术选型，搭建基础框架\
+          \n2、基于角色的权限控制RBAC模型对用户权限进行颗粒度划分\
+          \n3、 SLF4J+Logback自定义配置采集日志并根据日志级别进行分离，定义滚动策略设置时间滚动日志\
+          \n4、配置缓存管理器CacheManager，在Service层通过注解方式实现缓存管理\
+          \n5、基于Maven进行开发，并利用其继承特性管理共有jar包的依赖，利用其聚合特性拆分后台管理系统 ，实现分层工程开发。\
+		  ",
+        },
+		
+        {
+          title: "大数据与互联网学院心理健康监测管理及辅导一体化平台",
+          subtitle: "2022-10 至 2023-02",
+          md: "**项目角色 : 后端开发**\
+          \n\
+          \n● 项目链接：http://10.11.154.164/ （校园网访问）\
+          \n● 技术栈：Springboot+Mybatis-Plus+MySQL+Redis+JWT+Shrio+Maven\
+          \n● 项目描述：该项目面向大数据与互联网学院全体师生，帮助心理教师与辅导员了解和管理本院学生的心理状态。目前正处于上线初期，正在进行二期开发工作，后期目标为发展成面向全校师生的心理健康监测系统。\
+          \n● 负责模块：\
+          \n1、对接OAuth2实现UIM登录，校内学生与教师统一使用认证平台完成登录\
+          \n2、实现SpringBoot整合JWT+Shiro+Redis实现登录校验和权限校验，将token存入Redis缓存\
+          \n3、 @RestControllerAdvice + @ExceptionHand 配置全局异常处理类\
+          \n4、实现管理员端批量导入学生/教师/班级信息功能，经过sql优化后，接口响应时间由7s优化到752ms左右\
+          \n5、基于MyBatis 的动态 SQL，采用动态查询从而复用查询列表接口，提高代码质量\
+		  ",
+        },
+      ],
+    },
+	
+    {
+      display: true,
+      anchor: {
+        id: "work",
+        icon: "profile",
+        name: "工作经历",
+      },
+      header: {
+        title: "experience",
+        subtitle: "work experience",
+      },
+      cards: [
+        {
+          title: "深圳市锐明技术股份有限公司",
+          subtitle: "2021-06 至 2021-11",
+          md: "**项目角色 : 数据标注**\
+          \n\
+          \n工作描述：\
+          \n\
+          \n1、根据项目组长分配的任务需求，按时完成项目交付，汇报并检验工作成果。\
+          \n2、运用LabelImg工具对数据样本进行打点、连线、拉框，完成数据标注。\
+          \n3、运用ceiba2工具对原始疲劳数据进行分类，从而判定疲劳数据类别。\
+          \n4、运用videoclipsigned工具对分类完成的数据样本进行打标签处理。\
+          \n5、协助采集视频、测试、分析视频、以及其他AI需要的服务\
+		  ",
+        },
+      ],
+    },
+	
+	{
+	  display: true,
+	  anchor: {
+	    id: "skill",
+	    icon: "idcard",
+	    name: "掌握技能",
+	  },
+	  header: {
+	    title: "skill",
+	    subtitle: "Skills Mastered",
+	  },
+	  cards: [
+	    {
+	      md: "**个人优势**\
+	      \n\
+	      \n1、熟练掌握Java基础，熟悉集合、多线程、JUC并发，熟悉常用设计模式，有较好的系统设计及面向对象分析和设计能力；\
+	      \n2、熟悉常用数据结构和算法思想，实现代码的逻辑编写，如数组链表、二叉树、搜索剪枝、动态规划等；\
+	      \n3、熟练掌握Eclipse/IDEA、Git、Maven等开发及版本控制工具，熟悉Linux服务器的项目部署与操作，具备独立开发能力；\
+	      \n4、熟练使用Spring、SpringBoot、SpringMVC、Mybatis、Mybatis-Plus、Shiro等开源框架，熟悉IOC、AOP设计思想，阅读过常用开源框架核心源码；\
+	      \n5、熟练掌握MySQL，熟悉底层数据结构、存储引擎、索引、事务隔离级别、MVCC工作原理，熟悉常见的SQL优化解决方案；\
+	      \n6、熟练使用Redis，了解redis持久化以及安全控制机制，了解redis的主从复制与集群；\
+	      \n7、熟悉SpringCloud微服务框架，熟悉RPC远程调用，了解分布式和微服务常见解决方案；\
+	      \n8、熟悉RoctetMQ中间件的使用场景及实战，了解消息路由、死信队列、消息自动重试等机制；\
+	      \n9、熟悉网络协议HTTP、HTTPS、TCP、UDP等，熟悉第三方授权OAuth2.0协议、JWT标准，了解网络通讯技术Socket、WebSocket等；\
+	      \n10、熟悉Restfull API开发规范，熟练使用Postman、APIPost、Swagger等接口测试工具。\
+		  ",
+	    },
+	  ],
+	},
+	
+	{
+	  display: true,
+	  anchor: {
+	    id: "hobbies",
+	    icon: "book",
+	    name: "兴趣爱好",
+	  },
+	  header: {
+	    title: "hobbies",
+	    subtitle: "interests and hobbies",
+	  },
+	},
+  ],
+}

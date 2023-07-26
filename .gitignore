@@ -19,4 +19,3 @@ yarn-error.log*
 *.sw?
 
 node_modules
-docs
