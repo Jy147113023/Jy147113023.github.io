@@ -107,7 +107,6 @@
 		  \n3、 SLF4J+Logback自定义配置采集日志并根据日志级别进行分离，定义滚动策略设置时间滚动日志\
 		  \n4、Synchronized锁+Redis的increment递增方法自定义生成订单编号，处理防重复和并发问题\
 		  \n5、配置缓存管理器CacheManager，采用keyGenerator自定义缓存的key，在Service层通过注解方式实现缓存管理。\
-
 		  ",
         },
 		
@@ -174,17 +173,17 @@
 	    {
 	      md: "**个人优势**\
 	      \n\
-	      \n● 熟练掌握Java基础，熟悉集合、多线程、JUC工具类，对并发编程有一定了解，如 ThreadLocal、CAS机制；\
-	      \n● 熟悉常用设计模式，如单例、工厂、代理模式，有较好的系统设计及面向对象分析和设计能力；\
-	      \n● 掌握JVM内存模型，熟悉垃圾回收算法、垃圾回收器以及类加载过程，了解JVM参数配置；\
-	      \n● 熟练使用Spring、SpringBoot、SpringMVC、Mybatis、Mybatis-Plus、Shiro等开源框架，熟悉IOC、AOP设计思想，阅读过常用开源框架核心源码；\
-	      \n● 熟悉MySQL的底层数据结构、存储引擎、索引、事务隔离级别、MVCC工作原理，熟悉常见的SQL优化解决方案；\
-	      \n● 熟练使用Redis，了解redis持久化以及安全控制机制，了解redis的主从复制与集群；\
-	      \n● 熟悉RoctetMQ中间件的使用场景及实战，了解消息路由、死信队列、消息自动重试等机制；\
-	      \n● 了解SpringCloud微服务框架，熟悉RPC远程调用，了解分布式和微服务常见解决方案；\
-	      \n● 熟练掌握Eclipse/IDEA、Git、Maven等开发及版本控制工具，熟悉Linux服务器的项目部署与操作，具备独立开发能力；\
-	      \n● 熟悉网络协议HTTP、HTTPS、TCP、UDP等，熟悉第三方授权OAuth2.0协议，了解网络通讯技术Socket、WebSocket等；\
-	      \n● 熟悉Restfull API开发规范，熟练使用Postman、APIPost、Swagger等接口测试工具。\
+		  \n● 熟练掌握Java基础，熟悉集合、多线程、JUC工具类，对并发编程有一定了解，如 ThreadLocal、CAS机制；\
+		  \n● 熟悉常用设计模式，如单例、工厂、代理模式，有较好的系统设计及面向对象分析和设计能力；\
+		  \n● 掌握JVM内存模型，熟悉垃圾回收算法、垃圾回收器以及类加载过程，了解JVM参数配置；\
+		  \n● 熟练使用Spring、SpringBoot、SpringMVC、Mybatis、Mybatis-Plus、Shiro等开源框架，熟悉IOC、AOP设计思想，阅读过常用开源框架核心源码；\
+		  \n● 熟悉MySQL的底层数据结构、存储引擎、索引、事务隔离级别、MVCC工作原理，熟悉常见的SQL优化解决方案；\
+		  \n● 熟练使用Redis，了解redis持久化以及安全控制机制，了解redis的主从复制与集群；\
+		  \n● 熟悉RoctetMQ中间件的使用场景及实战，了解消息路由、死信队列、消息自动重试等机制；\
+		  \n● 了解SpringCloud微服务框架，熟悉RPC远程调用，了解分布式和微服务常见解决方案；\
+		  \n● 熟练掌握Eclipse/IDEA、Git、Maven等开发及版本控制工具，熟悉Linux服务器的项目部署与操作，具备独立开发能力；\
+		  \n● 熟悉网络协议HTTP、HTTPS、TCP、UDP等，熟悉第三方授权OAuth2.0协议，了解网络通讯技术Socket、WebSocket等；\
+		  \n● 熟悉Restfull API开发规范，熟练使用Postman、APIPost、Swagger等接口测试工具。\
 		  ",
 	    },
 	  ],
